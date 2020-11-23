@@ -1,0 +1,11 @@
+#hebergement
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: : space-around;
+	align-items: center;
+	background-color: #F2F2F2;
+	border: 3px;
+	border-radius: 10px;
+}
