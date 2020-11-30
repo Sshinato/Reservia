@@ -58,3 +58,25 @@ ul
 	top: 0; left :0;
 
 }
+
+footer
+{
+	display: flex;
+	flex-direction: wrap
+	justify-content: space-around;
+	align-content: space-around;
+	background-color: #F2F2F2
+}
+
+h4
+{
+	flex-direction: column;
+}
+
+.Propos, .Nos, .Assistance
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 300px;
+	line-height: 2%;
+}
