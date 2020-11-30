@@ -39,6 +39,7 @@ nav
 ul
 {
 	display: flex;
+	list-style: none;
 	
 }
 
@@ -46,7 +47,6 @@ ul
 
 {
 	display: flex;
-	list-style: none;
 	margin-right: 40px;
 }
 
