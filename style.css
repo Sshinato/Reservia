@@ -56,6 +56,7 @@ ul
 .recherche
 {
 	border: solid #F2F2F2 2px;
+	height: 180px;
 	padding: 8px;
 	border-radius: 10px 0px 0px 10px;
 }
@@ -107,8 +108,9 @@ ul
 #hebergement
 {
 	background-color: #F2F2F2;
-	height: 480px;
+	height: 40%;
 	width: 60%;
+	padding:15px;
 	border-radius: 10px;
 }
 
@@ -123,7 +125,6 @@ ul
 #populaire
 {
 	background-color: #F2F2F2;
-	height: 480px;
 	width: 30%;
 	border-radius: 10px;
 }
@@ -141,11 +142,15 @@ ul
 	background-color: white;
 	border:2px;
 	margin-bottom: 25px;
-	padding-top: 3px;
 	border-radius: 10px;
-	height: 150px;
 	width : 250px;
 	box-shadow: 1px 1px 10px grey;
+}
+
+.carte p img
+
+{
+	height: 150px;
 }
 
 .carte2
