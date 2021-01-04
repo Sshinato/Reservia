@@ -153,6 +153,16 @@ ul
 	height: 150px;
 }
 
+.carte p
+{
+	font-weight: bold;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
 .carte2
 {
 	display: flex;
