@@ -147,15 +147,15 @@ ul
 	box-shadow: 1px 1px 10px grey;
 }
 
-.carte p img
+.carte div img
 
 {
 	height: 150px;
 }
 
-.carte p
+.carte div:nth-child(1) p 
 {
-	font-weight: bold;
+	margin-left: 10px;
 }
 
 .gras
@@ -176,7 +176,6 @@ ul
 
 .grand
 {
-	display: flex;
 	background-color: white;
 	border: #F2F2F2 2px;
 	margin-bottom: 5px;
@@ -188,7 +187,6 @@ ul
 
 .moyen
 {
-	display: flex;
 	background-color: white;
 	border: #F2F2F2 2px;
 	margin-bottom: 25px;
@@ -200,7 +198,6 @@ ul
 
 .mini
 {
-	display: flex;
 	background-color: white;
 	border: #F2F2F2  2px;
 	margin-bottom: 25px;
@@ -214,7 +211,6 @@ ul
 
 .petit
 {
-	display: flex;
 	background-color: white;
 	border: #F2F2F2 2px;
 	margin-bottom: 25px;
