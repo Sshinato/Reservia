@@ -107,6 +107,11 @@ ul
 	background-color: #DEEBFF;
 }
 
+h3
+{
+	margin-left: 20px;
+}
+
 #block
 {
 	display: flex;
@@ -119,7 +124,7 @@ ul
 	background-color: #F2F2F2;
 	height: 40%;
 	width: 60%;
-	padding:15px;
+	padding:10px;
 	border-radius: 10px;
 }
 
@@ -135,6 +140,7 @@ ul
 {
 	background-color: #F2F2F2;
 	width: 30%;
+	padding: 10px;
 	border-radius: 10px;
 }
 
@@ -150,9 +156,10 @@ ul
 {	display: flex;
 	background-color: white;
 	border:2px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	border-radius: 10px;
-	width : 250px;
+	width : 30%;
+	height: 20%;
 	box-shadow: 1px 1px 10px grey;
 }
 
@@ -164,7 +171,12 @@ ul
 .carte div img
 
 {
-	height: 150px;
+	height: 125px;
+}
+
+.carte div p
+{
+	line-height: 50%;
 }
 
 .carte div:nth-child(1) p
@@ -174,6 +186,7 @@ ul
 
 .gras
 {
+	margin-left: 20px;
 	font-weight: bold;
 }
 
@@ -182,10 +195,19 @@ ul
 	display: flex;
 	background-color: white;
 	border:2px;
-	margin-bottom: 25px;
+	height: 130px;
+	margin-top: 25px;
 	border-radius: 10px;
-	height: 115px;
-	width: 250px;
+	width: 90%;
+	box-shadow: 1px 1px 10px grey;
+}
+
+
+.carte2 div img
+{
+	height: 90%;
+	width:30%;
+	margin: 5px;
 }
 
 .grand
@@ -265,13 +287,12 @@ p
 .far, .fa-star
 {
 	color: #F2F2F2;
-	
+	border-color: #F2F2F2
 }
 
 .fas, .fa-star
 {
 	color: #0065FC;
-
 }
 
 .fa-map-marker-alt
@@ -286,6 +307,13 @@ p
 .fa-info-circle
 {
 	padding-left: 25px;
+}
+
+.signe
+{
+	margin-left: 10px;
+	margin-top: -5px;
+	padding-bottom: 15px;
 }
 
 footer
