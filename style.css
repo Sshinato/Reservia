@@ -32,7 +32,6 @@ header
 nav
 {
 	display: flex;
-	flex-direction: wrap; 
 	justify-content: space-around;
 	align-content: space-around;
 	float: right;
@@ -349,7 +348,6 @@ p
 footer
 {
 	display: flex;
-	flex-direction: wrap
 	justify-content: space-around;
 	align-content: space-around;
 	background-color: #F2F2F2
@@ -360,4 +358,9 @@ footer
 	flex-direction: column;
 	margin-right: 300px;
 	line-height: 100%;
+}
+
+h6
+{
+	display: none;
 }
