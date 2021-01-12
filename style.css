@@ -12,6 +12,16 @@ body
 	margin-right: 10px;
 }
 
+header
+{
+	margin-left: 35px;
+}
+
+.decale
+{
+	margin-left: 35px;
+}
+
 .logo
 {	
 	float: left;
@@ -110,6 +120,16 @@ ul
 h3
 {
 	margin-left: 20px;
+}
+.centrer
+{
+	text-align: center;
+}
+
+.test
+{
+	margin-top: 5px;
+	margin-right: 50px;
 }
 
 #block
@@ -304,9 +324,13 @@ p
 	color: black;
 }
 
-.fa-info-circle
+
+.fa-chart-line
 {
-	padding-left: 25px;
+	display: flex;
+	float: right;
+	padding-right: 20px;
+	color: black;
 }
 
 .signe
