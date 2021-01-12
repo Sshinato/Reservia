@@ -199,9 +199,15 @@ h3
 	height: 125px;
 }
 
-.carte div p
+.carte div p, .carte div h4
 {
 	line-height: 50%;
+}
+
+.carte div h4
+{
+	margin: 0;
+	padding: 10px;
 }
 
 .carte div:nth-child(1) p
@@ -225,6 +231,12 @@ h3
 	border-radius: 10px;
 	width: 90%;
 	box-shadow: 1px 1px 10px grey;
+}
+
+.carte2 div h4
+{
+	margin: 0;
+	padding: 10px;
 }
 
 
