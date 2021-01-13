@@ -252,9 +252,10 @@ h3
 	background-color: white;
 	border: #F2F2F2 2px;
 	margin-bottom: 5px;
-	border-radius: 10px;
-	height: 400px;
-	width: 250px;
+	border-radius: 10px;;
+	width: 20%;
+	height: 450px;
+	margin-left: -25px;
 	box-shadow: 1px 1px 10px grey;
 }
 
@@ -275,9 +276,8 @@ h3
 	border: #F2F2F2  2px;
 	margin-bottom: 25px;
 	border-radius: 10px;
-	height: 100px;
-	width: 280px;
-	align-self: flex-end;
+	height: 72%;
+	width: 250px;
 	box-shadow: 1px 1px 10px grey;
 
 }
@@ -287,9 +287,10 @@ h3
 	background-color: white;
 	border: #F2F2F2 2px;
 	margin-bottom: 25px;
+	margin-right: 25px;
 	border-radius: 10px;
-	height: 150px;
-	width: 300px;
+	height: 60%;
+	width: 250px;
 	box-shadow: 1px 1px 10px grey;
 
 }
@@ -317,9 +318,10 @@ p
 	height: 100%;
 	width: 40%;
 	border-radius: 10px 0px 0px 10px;
-	float: left;;
+	float: left;
 	object-fit: cover;
 }
+
 
 .far, .fa-star
 {
@@ -357,12 +359,40 @@ p
 	padding-bottom: 15px;
 }
 
+.colonne
+{
+	display: grid;
+}
+
+div article h4, .plus article img
+{
+	margin: 0;
+}
+
+div article h4
+{
+	margin-left: 10px;
+	justify-content: center;
+}
+
+.autre
+{
+	width: 100%;
+	object-fit: cover;
+}
+
+.premier
+{
+	width: 20%;
+}
+
 footer
 {
 	display: flex;
 	justify-content: space-around;
 	align-content: space-around;
-	background-color: #F2F2F2
+	background-color: #F2F2F2;
+	width: 100%;
 }
 .Propos, .Nos, .Assistance
 {
@@ -370,6 +400,11 @@ footer
 	flex-direction: column;
 	margin-right: 300px;
 	line-height: 100%;
+}
+
+.Propos
+{ 
+	margin-left: 50px;
 }
 
 h6
